@@ -9,7 +9,7 @@ if (!$con)
 
 $sql="INSERT INTO login(User,mail)
 VALUES
-('$_POST[User]','$_POST[mail]')";
+('$_POST[user]','$_POST[pass]')";
 
 if (!mysql_query($sql,$con))
   {
