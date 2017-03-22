@@ -5,7 +5,7 @@
   <script type="text/javascript">
    if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
 </script>
-  
+  <meta charset="UTF-8">
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2015.0.0.309"/>
   <title>Home</title>
@@ -31,13 +31,17 @@
    </div>
    <div align = "center" class="grpelem" id="u224" style="font-family:Gotham;font-size:18px">
    <br><br>
-         <form action="/user.php" class="pot">
+         <form action="/user.php" method="post" class="pot">
           Username:<br><br>
-        <input name="user" type="text"><br><br><br>
+          <fieldset>
+        <input type="text" name="user" ><br><br><br>
           Password:<br><br>
-          <input name="pass" type="text">
+          <input type="text" name="pass" >
+        <br><br>
+          Prop:<br><br><input type="text" name="prop" >
         <br><br>
           <input type="submit" value="Submit">
+          </fieldset>
         </form> 
    
    </div>
