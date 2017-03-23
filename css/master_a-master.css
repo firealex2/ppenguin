@@ -1,57 +1,45 @@
+#u396
+{
+	position: fixed;
+	background: transparent url("../images/pplogofw.png") no-repeat center center;
+	background-size: contain;
+}
+
+#pamphletu126,#u127
+{
+	position: relative;
+}
+
 #u128
 {
-	position: absolute;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
+	position: fixed;
 }
 
 #u141
 {
 	background-color: #0E0200;
-}
-
-#pamphletu126,#u127,#pu128:hover #u141
-{
 	position: relative;
 }
 
 #u142
 {
 	background-color: #0E0200;
-}
-
-#pu128 #u141,#pu128:hover #u142
-{
 	position: relative;
 }
 
 #u143
 {
 	background-color: #0E0200;
-}
-
-#pu128 #u142,#pu128:hover #u143
-{
 	position: relative;
-}
-
-#pu128 #u143
-{
-	position: relative;
-}
-
-#pu128:hover #u128
-{
-	border-width: 1px;
-	border-style: solid;
-	border-color: #999999;
 }
 
 #u135
 {
-	position: absolute;
 	background-color: transparent;
+	position: fixed;
 }
 
 #u137,#menuu144
@@ -64,13 +52,13 @@
 
 #u146
 {
-	background-color: #C4C4C4;
+	background-color: #BE3830;
 	position: relative;
 }
 
 #u146:hover
 {
-	background-color: #999999;
+	background-color: #FD001C;
 }
 
 #u146:active
@@ -78,7 +66,7 @@
 	background-color: #6B6B6B;
 }
 
-#u148-5
+#u148-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -91,13 +79,13 @@
 
 #u176
 {
-	background-color: #C4C4C4;
+	background-color: #BE3830;
 	position: relative;
 }
 
 #u146.MuseMenuActive,#u176:hover
 {
-	background-color: #999999;
+	background-color: #FD001C;
 }
 
 #u176:active
@@ -116,23 +104,23 @@
 	position: relative;
 }
 
-#u169
+#u413
 {
-	background-color: #C4C4C4;
+	background-color: #BE3830;
 	position: relative;
 }
 
-#u176.MuseMenuActive,#u169:hover
+#u176.MuseMenuActive,#u413:hover
 {
-	background-color: #999999;
+	background-color: #FD001C;
 }
 
-#u169:active
+#u413:active
 {
 	background-color: #6B6B6B;
 }
 
-#u170-4
+#u415-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -143,34 +131,34 @@
 	position: relative;
 }
 
-#u83,#u145,#u173,#u166,#u159
+#u145,#u173,#u410,#u417
 {
 	background-color: transparent;
 	position: relative;
 }
 
-#u162
+#u418
 {
-	background-color: #C4C4C4;
+	background-color: #BE3830;
 	position: relative;
 }
 
-#u169.MuseMenuActive,#u162:hover
+#u413.MuseMenuActive,#u418:hover
 {
-	background-color: #999999;
+	background-color: #FD001C;
 }
 
-#u162:active
+#u418:active
 {
 	background-color: #6B6B6B;
 }
 
-#u162.MuseMenuActive
+#u418.MuseMenuActive
 {
-	background-color: #999999;
+	background-color: #FD001C;
 }
 
-#u163-4
+#u421-4
 {
 	border-style: none;
 	border-color: transparent;
@@ -186,13 +174,13 @@
 	position: absolute;
 	border-style: none;
 	border-color: transparent;
-	background-color: #C4C4C4;
+	background-color: #BE3830;
 }
 
 #u139:hover
 {
 	border-color: #6B6B6B;
-	background-color: #999999;
+	background-color: #FD001C;
 }
 
 #u139:active
@@ -206,7 +194,7 @@
 	background-color: transparent;
 	text-align: center;
 	line-height: 20px;
-	color: #110B00;
+	color: #FFFFFF;
 	position: relative;
 }
 

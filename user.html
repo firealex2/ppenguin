@@ -3,16 +3,16 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musemenu.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musemenu.js", "jquery.watch.js", "user.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
   <meta name="generator" content="2015.0.0.309"/>
-  <title>Home</title>
+  <title>User</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?3905594326"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?4195718718" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/user.css?4214189000" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
@@ -25,41 +25,65 @@
  <body class="museBGSize">
 
   <div class="clearfix" id="page"><!-- group -->
-   <div class="museBGSize" id="u396"><!-- simple frame --></div>
-   <div class="clearfix grpelem" id="ppamphletu309"><!-- column -->
-    <div class="PamphletWidget clearfix colelem" id="pamphletu309"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem" id="u320"><!-- none box -->
-      <div class="popup_anchor">
-       <div class="Thumb popup_element rounded-corners" id="u323"><!-- simple frame --></div>
-      </div>
-      <div class="popup_anchor">
-       <div class="Thumb popup_element rounded-corners" id="u322"><!-- simple frame --></div>
-      </div>
-      <div class="popup_anchor">
-       <div class="Thumb popup_element rounded-corners" id="u321"><!-- simple frame --></div>
-      </div>
+   <div id="u396"><!-- simple frame --></div>
+   <div class="PamphletWidget clearfix grpelem" id="pamphletu232"><!-- none box -->
+    <div class="ThumbGroup clearfix grpelem" id="u233"><!-- none box -->
+     <div class="popup_anchor">
+      <div class="Thumb popup_element museBGSize" id="u234"><!-- simple frame --></div>
      </div>
-     <div class="popup_anchor" id="u310popup">
-      <div class="ContainerGroup clearfix" id="u310"><!-- stack box -->
-       <div class="Container shadow rounded-corners clearfix grpelem" id="u313"><!-- column -->
-        <div class="position_content" id="u313_position_content">
-         <img class="colelem" id="u330-4" alt="welcome" width="283" height="80" src="images/u330-4.png"/><!-- rasterized frame -->
-         <img class="colelem" id="u332-6" alt="Productive Penguin. Helping you handle your tasks since you can't do it yourself." width="316" height="87" src="images/u332-6.png"/><!-- rasterized frame -->
-        </div>
-       </div>
-       <div class="Container invi shadow rounded-corners grpelem" id="u311"><!-- simple frame --></div>
-       <div class="Container invi clearfix grpelem" id="u312"><!-- group -->
-        <a class="nonblock nontext grpelem" id="u490" href="user.html"><!-- simple frame --></a>
-       </div>
-      </div>
+     <div class="popup_anchor">
+      <div class="Thumb popup_element museBGSize" id="u236"><!-- simple frame --></div>
+     </div>
+     <div class="popup_anchor">
+      <div class="Thumb popup_element museBGSize" id="u235"><!-- simple frame --></div>
+     </div>
+     <div class="popup_anchor">
+      <div class="Thumb popup_element museBGSize" id="u247"><!-- simple frame --></div>
      </div>
     </div>
-    <div class="rounded-corners clearfix colelem" id="u404"><!-- group -->
-     <img class="grpelem" id="u406-4" alt="LOG IN" width="78" height="24" src="images/u406-4.png"/><!-- rasterized frame -->
+    <div class="popup_anchor" id="u241popup">
+     <div class="ContainerGroup clearfix" id="u241"><!-- stack box -->
+      <div class="Container clearfix grpelem" id="u243"><!-- group -->
+      	<br><br>
+        <p style="font-family: georgia; font-size:60px">Here are your tasks:</p>
+        <br><br><br>
+        
+        If you want to add a task go ahead! <button onclick="open_choice()" style="size:auto">ADD</button>
+        
+        <script>
+		
+        function open_choice() {
+			/*
+			mysql connection si ia codul de mai jos si il pui cat timp citeste din baza de date
+			
+			*/
+           var choice_div = document.createElement('div');
+		   var close_button = document.createElement('BUTTON');
+		   document.getElementById("u243").appendChild(choice_div);
+		   choice_div.style.left = '32px';
+		   choice_div.style.right = '-16px';
+		   choice_div.className = 'myDiv';
+		   choice_div.id = 'choice';
+		   choice_div.textContent = 'Hey';
+		   choice_div.style.backgroundColor = 'green';
+		   document.getElementById("choice").appendChild(close_button);
+		   close_button.textContent = 'CLOSE';
+		   close_button.onclick = close_choice;
+		   
+		 }
+		 
+		 function close_choice(){
+			 var div = document.getElementById("choice");
+			 div.parentNode.removeChild(div);
+		}
+        </script>
+       <div class="grpelem" id="u489"><!-- simple frame --></div>
+      </div>
+      <div class="Container invi grpelem" id="u244"><!-- simple frame --></div>
+      <div class="Container invi grpelem" id="u242"><!-- simple frame --></div>
+      <div class="Container invi grpelem" id="u248"><!-- simple frame --></div>
+     </div>
     </div>
-   </div>
-   <div class="rounded-corners clearfix grpelem" id="u407"><!-- group -->
-    <img class="grpelem" id="u408-4" alt="REGISTER" width="120" height="24" src="images/u408-4.png"/><!-- rasterized frame -->
    </div>
    <div class="PamphletWidget clearfix grpelem" id="pamphletu126"><!-- none box -->
     <div class="ThumbGroup clearfix grpelem" id="u127"><!-- none box -->
@@ -76,7 +100,7 @@
       <div class="Container invi clearfix grpelem" id="u137"><!-- group -->
        <nav class="MenuBar clearfix grpelem" id="menuu144"><!-- vertical box -->
         <div class="MenuItemContainer clearfix colelem" id="u145"><!-- horizontal box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u146" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u148-4"><!-- content --><p>Home</p></div></a>
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u146" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u148-4"><!-- content --><p>Home</p></div></a>
         </div>
         <div class="MenuItemContainer clearfix colelem" id="u173"><!-- horizontal box -->
          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u176" href="about-us.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u177-4"><!-- content --><p>About us</p></div></a>
@@ -121,10 +145,11 @@
    $(document).ready(function() { try {
 (function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
 for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();
+/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.initWidget('#pamphletu309', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:true,displayInterval:5000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu309 */
+Muse.Utils.initWidget('#pamphletu232', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu232 */
 Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu126', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu126 */
 Muse.Utils.fullPage('#page');/* 100% height page */

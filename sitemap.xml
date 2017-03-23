@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ppenguin.net/images/pplogofw.jpg</loc>
+    <loc>http://ppenguin.net/assets/soontm.png</loc>
     <lastmod>2017-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://ppenguin.net/index.html</loc>
-    <lastmod>2017-03-17</lastmod>
+    <lastmod>2017-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ppenguin.net/user.html</loc>
+    <lastmod>2017-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ppenguin.net/about-us.html</loc>
+    <lastmod>2017-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ppenguin.net/log-in.html</loc>
+    <lastmod>2017-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://ppenguin.net/register.html</loc>
+    <lastmod>2017-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,12 +1,12 @@
-.version.index /* version checker */
+.version.register /* version checker */
 {
-	color: #0000FA;
-	background-color: #15963E;
+	color: #0000E1;
+	background-color: #4F502E;
 }
 
 .html
 {
-	background: #424242 url("../images/grey-with-bubbles.jpg") no-repeat center center scroll;
+	background: #FFFFFF url("../images/grey-with-bubbles.jpg") no-repeat center center scroll;
 	background-size: cover;
 }
 
@@ -14,14 +14,20 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 685px;
+	min-height: 500px;
 	background-image: none;
 	border-style: none;
-	border-color: transparent;
+	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 88px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -36px;
+	padding-bottom: 62px;
+	width: 0.01px;
 }
 
 #u396
@@ -33,307 +39,13 @@
 	left: 0px;
 }
 
-#ppamphletu309
-{
-	width: 0.01px;
-	margin-right: -10000px;
-	margin-top: 141px;
-	margin-left: 103px;
-}
-
-#pamphletu309
-{
-	z-index: 41;
-	width: 0.01px;
-	height: 425px;
-	margin-left: 73px;
-	position: relative;
-}
-
-#u320
-{
-	z-index: 42;
-	width: 270px;
-	margin-bottom: -1px;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 407px;
-	left: 169px;
-}
-
-#u323
-{
-	position: absolute;
-	width: 18px;
-	height: 17px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #DEDEDE;
-	background-color: #C4C4C4;
-	border-radius: 10px;
-}
-
-#u323:hover
-{
-	border-color: #999999;
-	background-color: #C4C4C4;
-	width: 18px;
-	height: 17px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u323.PamphletThumbSelected
-{
-	border-color: #999999;
-	background-color: #BE3830;
-	border-radius: 10px;
-	width: 18px;
-	height: 17px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u322
-{
-	position: absolute;
-	width: 18px;
-	height: 17px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #C4C4C4;
-	background-color: #C4C4C4;
-	border-radius: 10px;
-	left: 125px;
-}
-
-#u322:hover
-{
-	border-color: #999999;
-	background-color: #C4C4C4;
-	width: 18px;
-	height: 17px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u322.PamphletThumbSelected
-{
-	border-color: #999999;
-	background-color: #BE3830;
-	width: 18px;
-	height: 17px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u321
-{
-	position: absolute;
-	width: 18px;
-	height: 17px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #999999;
-	background-color: #C4C4C4;
-	border-radius: 10px;
-	left: 250px;
-}
-
-#u321:hover
-{
-	border-color: #6B6B6B;
-	background-color: #C4C4C4;
-	width: 18px;
-	height: 17px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u321.PamphletThumbSelected
-{
-	border-color: #6B6B6B;
-	background-color: #BE3830;
-	width: 18px;
-	height: 17px;
-	min-height: 0px;
-	margin: 0px;
-}
-
-#u310
-{
-	position: absolute;
-	width: 608px;
-	background-color: transparent;
-	padding-bottom: 0px;
-}
-
-#u310popup
-{
-	z-index: 46;
-}
-
-#u313
-{
-	z-index: 47;
-	width: 606px;
-	height: 384px;
-	-pie-box-shadow: 6px 6px 8px #B2B2B2;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.3);
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-	border-radius: 10px;
-	margin-right: -10000px;
-	position: relative;
-	background: #FFFFFF url("../images/man-working-with-the-laptop_385-19323865.jpg") no-repeat center top;
-}
-
-#u313_position_content
-{
-	margin-top: -1px;
-	padding-bottom: 160px;
-}
-
-#u330-4
-{
-	z-index: 48;
-	display: block;
-	vertical-align: top;
-	margin-left: 161px;
-	position: relative;
-}
-
-#u332-6
-{
-	z-index: 52;
-	display: block;
-	vertical-align: top;
-	margin-left: 151px;
-	margin-top: 58px;
-	position: relative;
-}
-
-#u311
-{
-	z-index: 58;
-	width: 606px;
-	height: 384px;
-	-pie-box-shadow: none;
-	box-shadow: 6px 6px 8px rgba(0,0,0,0.5);
-	border-width: 1px;
-	border-style: solid;
-	border-color: #999999;
-	border-radius: 10px;
-	margin-right: -10000px;
-	position: relative;
-	background: transparent url("../images/lololololol-ieu311-fr.png") no-repeat center center;
-	background: rgba(0,0,0,0) url("../images/lololololol.jpg") no-repeat center center;
-	background-color: transparent;
-	background-size: cover;
-}
-
-#u312
-{
-	z-index: 59;
-	width: 606px;
-	height: 384px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #6B6B6B;
-	background-color: #999999;
-	margin-right: -10000px;
-	position: relative;
-}
-
-#u490
-{
-	z-index: 60;
-	width: 363px;
-	height: 125px;
-	background-color: #868AFF;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 128px;
-	left: 112px;
-}
-
-.PamphletWidget .ThumbGroup .Thumb,.PamphletNextButton,.PamphletPrevButton,.PamphletCloseButton /* pamphlet2 */
-{
-	cursor: pointer;
-}
-
-#u404
-{
-	z-index: 61;
-	width: 181px;
-	background-color: #BE3830;
-	border-radius: 10px;
-	padding-bottom: 20px;
-	margin-top: 55px;
-	position: relative;
-}
-
-#u404:hover
-{
-	background-color: #FD001C;
-	width: 181px;
-	min-height: 0px;
-	margin: 55px 0px 0px;
-}
-
-#u406-4
-{
-	z-index: 62;
-	display: block;
-	vertical-align: top;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 20px;
-	left: 52px;
-}
-
-#u407
-{
-	z-index: 66;
-	width: 181px;
-	background-color: #BE3830;
-	border-radius: 10px;
-	padding-bottom: 20px;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 621px;
-	left: 676px;
-}
-
-#u407:hover
-{
-	background-color: #FD001C;
-	width: 181px;
-	min-height: 0px;
-	margin: 621px -10000px 0px 0px;
-}
-
-#u408-4
-{
-	z-index: 67;
-	display: block;
-	vertical-align: top;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 20px;
-	left: 31px;
-}
-
 #pamphletu126
 {
 	z-index: 2;
 	width: 0.01px;
 	height: 45px;
 	padding-bottom: 263px;
-	margin-right: -10000px;
-	margin-top: -36px;
-	left: 1000px;
+	margin-left: 1000px;
 }
 
 #u127
@@ -684,6 +396,36 @@
 	margin-right: -10000px;
 	margin-top: 6px;
 	left: 6px;
+}
+
+#u487-4
+{
+	z-index: 42;
+	display: block;
+	vertical-align: top;
+	margin-left: 390px;
+	top: -205px;
+	margin-bottom: -36px;
+	position: relative;
+}
+
+#u485
+{
+	z-index: 41;
+	width: 598px;
+	height: 460px;
+	margin-left: 181px;
+	top: -104px;
+	margin-bottom: -104px;
+	position: relative;
+}
+
+.ie #u485
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
 }
 
 body
